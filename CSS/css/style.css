@@ -1,0 +1,23 @@
+body{
+	background-image: url('../image/flo.jpeg');
+	background-size: 35%;
+	background-repeat: repeat;
+}
+p, span{
+	color: blue;
+	background-color: #e0e0e0;
+}
+.ECl{
+	background-color: #efefef;
+	color: red !important;
+}
+.ExampleCl{
+	text-shadow: 5px 1px green;
+	background-color: #b5b5b5;
+	color: purple;
+}
+#ExampleID{
+	color: lime;
+	background-color: rgb(0,0,100);
+	text-align: center;
+}

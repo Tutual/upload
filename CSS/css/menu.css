@@ -1,0 +1,33 @@
+/* class-7.html */
+ul{
+	list-style: none;
+	padding: 1px;
+}
+ul li{
+	position: relative;
+	float: left;
+}
+li a{
+	color: white;
+	background-color: black;
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	white-space: nowrap;
+}
+li ul{
+	display: none;
+}
+li:hover ul{
+	display: block;
+	position: absolute;
+}
+ul li ul li{
+	width: 100%;
+}
+li:hover a{
+	background: blue;
+}
+li ul li a:hover{
+	background: black;
+}

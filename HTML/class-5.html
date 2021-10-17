@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>ICT</title>
+		<style>
+			label {
+				font-weight: bold;
+				font-size: 19;
+				color: blue;
+				background-color: #e0e0e0;
+				padding: 5px 5px 5px 5px;
+				margin: 5px 5px 5px 5px;
+				border: 1px red solid;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="color:green;" align="center">Form</h1>
+		<form action="" method="post"><!--get & post-->
+			<label for="user">Name: </label><input type="text" name="user" id="user" required/><br/><br/>
+			<label for="email">Email: </label> <input type="email" name="email" id="email" required/><br/><br/>
+			Mobile: <input type="number" name="mobile" required/><br/><br/>
+			Password: <input type="password" name="pass"/><br/><br/>
+			DoB: <input type="date" name="dob"/><br/><br/>
+			Gender: &nbsp;Male<input type="radio" name="gender" value="male"/>&nbsp;&nbsp;
+					Female<input type="radio" name="gender" value="female"/><br/><br/>
+			Skill: <input type="checkbox" name="skill" value="CP"/>Computer Programming&nbsp;
+					<input type="checkbox" name="skill" value="WDD"/>Web Design & Development&nbsp;
+					<input type="checkbox" name="skill" value="GD"/>Graphics Design<br/><br/>
+			Department: <select name="dept.">
+							<option value="cse">CSE</option>
+							<option value="eee">EEE</option>
+							<option value="ece">ECE</option>
+						</select><br/><br/>
+					<input type="submit" name='submit' value="Submit"/>
+					<button name='submit'>SUBMIT</button>
+		</form>
+		<hr/>
+		<table align="center" border="0">
+			<tr>
+				<td>NAme:</td>
+				<td><input type="text" name="user" required/></td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td><input type="email" name="email" required/></td>
+			</tr>
+			<tr>
+				<td>Mobile:</td>
+				<td><input type="number" name="mobile" required/></td>
+			</tr>
+		</table>
+	</body>
+</html>

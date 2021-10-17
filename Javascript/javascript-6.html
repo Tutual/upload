@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript</title>
+	<link rel="stylesheet" type="text/css" href="../Bootstrap/css/bootstrap.css">
+</head>
+<body>
+	<p id="pID1" class="text-center text-white bg-success">P1</p>
+	<p id="pID2" class="text-center text-white bg-primary">P2</p>
+	<button onclick="show()">Display</button>
+	<script type="text/javascript">
+		function show() {
+			document.getElementById('pID1').innerHTML = "Test 1";
+			document.getElementById('pID2').innerHTML = "Test 2";
+		}
+	</script>
+</body>
+</html>
